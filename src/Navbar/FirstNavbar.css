@@ -1,0 +1,30 @@
+.FirstNavbar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+.InsideFirstNavbar{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.FirstNavbarStart {
+    display: flex;
+}
+.phoneNumber{
+    padding-right: 15px;
+    border-right: solid 1px #d8d8d8;
+}
+.mail{
+    padding-left: 15px;
+}
+.login{
+    padding-right: 15px;
+    border-right: solid 1px #d8d8d8;
+}
+.register{
+    padding-left: 15px;
+}

@@ -1,0 +1,12 @@
+.SecondNavbar{ 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+.InsideSecondNavbar{
+    width: 90% ;
+}
+.Navbar{
+padding-left: 0px !important;
+}
