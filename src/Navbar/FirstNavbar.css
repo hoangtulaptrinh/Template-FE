@@ -7,9 +7,10 @@
 .InsideFirstNavbar{
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 60%;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-weight: 300;
 }
 .FirstNavbarStart {
     display: flex;
@@ -27,4 +28,11 @@
 }
 .register{
     padding-left: 15px;
+}
+.FirstNavbarRight > a{
+    color: black ;
+}
+.FirstNavbarRight > a:hover{
+    text-decoration: none ;
+    color: red ;
 }

@@ -5,8 +5,22 @@
     border-bottom: 1px solid #eee;
 }
 .InsideSecondNavbar{
-    width: 90% ;
+    width: 60% ;
+    font-weight: normal;
 }
 .Navbar{
 padding-left: 0px !important;
+}
+.Search{
+    border-left: solid 1px #eee;
+    padding-left: 15px !important;
+}
+.Left-Search{
+    padding-right: 15px !important;
+}
+.Link {
+    color: black !important;
+}
+.Link:hover {
+    color: red !important;
 }

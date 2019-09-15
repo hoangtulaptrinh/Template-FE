@@ -1,0 +1,9 @@
+span {
+    color: #57c8eb;
+}
+.Form{
+    display: flex;
+}
+.Mail{
+    width: 80% !important;
+}

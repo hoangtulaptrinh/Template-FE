@@ -1,0 +1,25 @@
+.Twitter{
+    color: #F5F8FA ;
+}
+.Twitter-One > h4 > a{
+    color: #F5F8FA;
+}
+.Twitter-One > h5{
+    color: #c2c1c1;
+}
+.Twitter-One > h4 > a:hover{
+    text-decoration: none;
+    color: #2b7bb9;
+}
+.Icon{
+    padding-right: 5px;
+}
+.Hidden-Link{
+    /* position: absolute!important;  */
+    overflow: hidden!important; 
+    width: 1px!important; 
+    height: 1px!important; 
+    padding: 0!important; 
+    border: 0!important; 
+    clip: rect(1px,1px,1px,1px)!important;
+}

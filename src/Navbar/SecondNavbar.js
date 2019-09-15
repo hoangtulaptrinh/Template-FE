@@ -9,7 +9,7 @@ import {
   NavItem,
   NavLink, } from 'reactstrap';
 import logoNavbar from './imgNavbar/logoNavbar.png'
-
+import { FaSearch } from 'react-icons/fa';
 export default class SecondNavbar extends React.Component {
   constructor(props) {
     super(props);
@@ -34,25 +34,28 @@ export default class SecondNavbar extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="">Home</NavLink>
+                <NavLink className='Link' href="">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="">Pages</NavLink>
+                <NavLink className='Link' href="">Pages</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="">Multilevel</NavLink>
+                <NavLink className='Link' href="">Multilevel</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="">Portfolio</NavLink>
+                <NavLink className='Link' href="">Portfolio</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="">Blog</NavLink>
+                <NavLink className='Link' href="">Blog</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="">Mega Menu</NavLink>
+                <NavLink className='Link' href="">Mega Menu</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="">Admin theme</NavLink>
+                <NavLink className='Link Left-Search' href="">Admin theme</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className='Search' href=""><FaSearch /></NavLink>
               </NavItem>
             </Nav>
           </Collapse>

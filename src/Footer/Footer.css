@@ -1,0 +1,14 @@
+.Footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #313030;
+}
+.Child-Footer{
+    width: 60%;
+}
+.Inside-Child-Footer{
+    display: flex;
+    justify-content: space-between;
+    color: #c2c1c1;
+}
